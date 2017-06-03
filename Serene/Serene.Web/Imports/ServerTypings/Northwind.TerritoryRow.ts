@@ -5,6 +5,7 @@
         TerritoryDescription?: string;
         RegionID?: number;
         RegionDescription?: string;
+        RegionDescription2?: string;
     }
 
     export namespace TerritoryRow {
@@ -23,9 +24,10 @@
             export declare const TerritoryDescription: string;
             export declare const RegionID: string;
             export declare const RegionDescription: string;
+            export declare const RegionDescription2: string;
         }
 
-        ['ID', 'TerritoryID', 'TerritoryDescription', 'RegionID', 'RegionDescription'].forEach(x => (<any>Fields)[x] = x);
+        ['ID', 'TerritoryID', 'TerritoryDescription', 'RegionID', 'RegionDescription', 'RegionDescription2'].forEach(x => (<any>Fields)[x] = x);
     }
 }
 

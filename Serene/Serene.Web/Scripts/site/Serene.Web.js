@@ -1818,7 +1818,7 @@ var Serene;
             var Fields;
             (function (Fields) {
             })(Fields = TerritoryRow.Fields || (TerritoryRow.Fields = {}));
-            ['ID', 'TerritoryID', 'TerritoryDescription', 'RegionID', 'RegionDescription'].forEach(function (x) { return Fields[x] = x; });
+            ['ID', 'TerritoryID', 'TerritoryDescription', 'RegionID', 'RegionDescription', 'RegionDescription2'].forEach(function (x) { return Fields[x] = x; });
         })(TerritoryRow = Northwind.TerritoryRow || (Northwind.TerritoryRow = {}));
     })(Northwind = Serene.Northwind || (Serene.Northwind = {}));
 })(Serene || (Serene = {}));

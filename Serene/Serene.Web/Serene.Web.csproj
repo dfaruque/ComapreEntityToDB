@@ -1421,6 +1421,7 @@
     <Content Include="Scripts\ckeditor\README.md" />
     <Content Include="Scripts\ckeditor\LICENSE.md" />
     <Content Include="Scripts\ckeditor\CHANGES.md" />
+    <Content Include="Modules\Common\Dashboard\DashboardIndex.cshtml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
@@ -1713,7 +1714,7 @@
     <Content Include="Scripts\site\texts\site.texts.tr.json" />
     <Content Include="Modules\Membership\Account\AccountLogin.cshtml" />
     <Content Include="Modules\Web.config" />
-    <Content Include="Modules\Common\Dashboard\DashboardIndex.cshtml" />
+    <Content Include="Modules\Common\CompareEntityToDB\CompareEntityToDBIndex.cshtml" />
     <Content Include="Modules\Membership\_ViewStart.cshtml" />
     <Content Include="Modules\_ViewStart.cshtml" />
     <Content Include="Views\Templates\EntityDialog.Template.html" />
@@ -1972,6 +1973,9 @@
     <Compile Include="Modules\BasicSamples\Grids\StoredProcedureGrid\CustomerGrossSalesListRequest.cs" />
     <Compile Include="Modules\BasicSamples\Grids\StoredProcedureGrid\CustomerGrossSalesEndpoint.cs" />
     <Compile Include="Modules\BasicSamples\Grids\StoredProcedureGrid\CustomerGrossSalesRepository.cs" />
+    <Compile Include="Modules\Common\Dashboard\DashboardPage.cs" />
+    <Compile Include="Modules\Common\Dashboard\DashboardPageModel.cs" />
+    <Compile Include="Modules\Common\CompareEntityToDB\SchemaHelper.cs" />
     <Compile Include="Modules\Northwind\Customer\CustomerGrossSalesRow.cs" />
     <Compile Include="Modules\BasicSamples\Grids\VSGalleryQA\VSGalleryQAColumns.cs" />
     <Compile Include="Modules\BasicSamples\Grids\VSGalleryQA\VSGalleryQAParser.cs" />
@@ -1981,7 +1985,7 @@
     <Compile Include="Modules\BasicSamples\BasicSamplesNavigation.cs" />
     <Compile Include="Modules\Common\Helpers\EmailHelper.cs" />
     <Compile Include="Modules\Common\Helpers\ExcelImportRequest.cs" />
-    <Compile Include="Modules\Common\Dashboard\DashboardPageModel.cs" />
+    <Compile Include="Modules\Common\CompareEntityToDB\CompareEntityToDBPageModel.cs" />
     <Compile Include="Modules\Common\File\FilePage.cs" />
     <Compile Include="Modules\Common\Helpers\DetailListSaveHandler.cs" />
     <Compile Include="Imports\ClientTypes\Administration.PermissionCheckEditorAttribute.cs">
@@ -2061,7 +2065,7 @@
     <Compile Include="Modules\Administration\Translation\TranslationUpdateRequest.cs" />
     <Compile Include="Modules\Administration\Translation\TranslationListRequest.cs" />
     <Compile Include="Modules\Administration\Translation\TranslationItem.cs" />
-    <Compile Include="Modules\Common\Dashboard\DashboardPage.cs" />
+    <Compile Include="Modules\Common\CompareEntityToDB\CompareEntityToDBPage.cs" />
     <Compile Include="Modules\Common\Helpers\SqlExceptionHelper.cs" />
     <Compile Include="Imports\MVC\MVC.cs">
       <AutoGen>True</AutoGen>

@@ -2545,6 +2545,7 @@ declare namespace Serene.Northwind {
         TerritoryDescription?: string;
         RegionID?: number;
         RegionDescription?: string;
+        RegionDescription2?: string;
     }
     namespace TerritoryRow {
         const idProperty = "ID";
@@ -2558,6 +2559,7 @@ declare namespace Serene.Northwind {
             const TerritoryDescription: string;
             const RegionID: string;
             const RegionDescription: string;
+            const RegionDescription2: string;
         }
     }
 }
