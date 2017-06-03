@@ -48,6 +48,13 @@ namespace Serene.Northwind.Entities
             set { Fields.RegionDescription[this] = value; }
         }
 
+        [DisplayName("Region"), QuickSearch, LookupInclude]
+        public String RegionDescription2
+        {
+            get { return Fields.RegionDescription[this]; }
+            set { Fields.RegionDescription[this] = value; }
+        }
+
         IIdField IIdRow.IdField
         {
             get { return Fields.ID; }
@@ -73,6 +80,7 @@ namespace Serene.Northwind.Entities
             public Int32Field RegionID;
 
             public StringField RegionDescription;
+            public StringField RegionDescription2;
 
             public RowFields()
             {
